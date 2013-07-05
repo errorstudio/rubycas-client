@@ -72,8 +72,8 @@ module CASClient
         before_save :save_service_ticket
 
         def save_service_ticket
-          if data[:service_ticket]
-            self.service_ticket = data[:service_ticket]
+          if data["service_ticket"]
+            self.service_ticket = data["service_ticket"]
           end
         end
       end
