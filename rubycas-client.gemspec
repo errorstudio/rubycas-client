@@ -23,6 +23,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency("activesupport")
+  gem.add_dependency("activerecord-session_store")
   gem.add_development_dependency("rake")
   gem.add_development_dependency("database_cleaner")
   gem.add_development_dependency("json")
